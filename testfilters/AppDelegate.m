@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WelcomeAssembly.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] init];
+    id module = [WelcomeAssembly createModule];
+    [module presentModuleFromWindow:self.window];
     return YES;
 }
 

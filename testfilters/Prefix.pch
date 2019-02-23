@@ -1,0 +1,15 @@
+//
+//  Prefix.pch
+//  testfilters
+//
+//  Created by Jura Moshkov on 22/02/2019.
+//  Copyright © 2019 Jura Moshkov. All rights reserved.
+//
+
+#ifndef Prefix_h
+#define Prefix_h
+
+#import <UIKit/UIKit.h>
+#import "Utils.h"
+
+#endif /* Prefix_h */

@@ -8,24 +8,87 @@
 
 /* Begin PBXBuildFile section */
 		302CB5F82220290100F4B873 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB5F72220290100F4B873 /* AppDelegate.m */; };
-		302CB5FB2220290100F4B873 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB5FA2220290100F4B873 /* ViewController.m */; };
 		302CB5FE2220290100F4B873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302CB5FC2220290100F4B873 /* Main.storyboard */; };
 		302CB6002220290400F4B873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302CB5FF2220290400F4B873 /* Assets.xcassets */; };
 		302CB6032220290400F4B873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302CB6012220290400F4B873 /* LaunchScreen.storyboard */; };
 		302CB6062220290400F4B873 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB6052220290400F4B873 /* main.m */; };
+		302CB62D2220368E00F4B873 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB62C2220368E00F4B873 /* Utils.m */; };
+		302CB630222036BE00F4B873 /* UIStoryboard+InstatiateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB62F222036BE00F4B873 /* UIStoryboard+InstatiateController.m */; };
+		302CB64A22204C3200F4B873 /* WelcomeAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB63422204C3200F4B873 /* WelcomeAssembly.m */; };
+		302CB64B22204C3200F4B873 /* WelcomePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB63922204C3200F4B873 /* WelcomePresenter.m */; };
+		302CB64C22204C3200F4B873 /* WelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB63F22204C3200F4B873 /* WelcomeVC.m */; };
+		302CB64D22204C3200F4B873 /* WelcomeInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB64522204C3200F4B873 /* WelcomeInteractor.m */; };
+		302CB64E22204C3200F4B873 /* WelcomeRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB64722204C3200F4B873 /* WelcomeRouter.m */; };
+		302CB66722204C5900F4B873 /* FiltersAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB65122204C5900F4B873 /* FiltersAssembly.m */; };
+		302CB66822204C5900F4B873 /* FiltersPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB65722204C5900F4B873 /* FiltersPresenter.m */; };
+		302CB66922204C5900F4B873 /* FiltersVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB65A22204C5900F4B873 /* FiltersVC.m */; };
+		302CB66A22204C5900F4B873 /* FiltersInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB65E22204C5900F4B873 /* FiltersInteractor.m */; };
+		302CB66B22204C5900F4B873 /* FiltersRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB66622204C5900F4B873 /* FiltersRouter.m */; };
+		302CB66E22204F2700F4B873 /* FiltersViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB66D22204F2700F4B873 /* FiltersViewModel.m */; };
+		302CB67322205F8A00F4B873 /* FilterFabric.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB67222205F8A00F4B873 /* FilterFabric.m */; };
+		302CB676222060C500F4B873 /* FilterService.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB675222060C500F4B873 /* FilterService.m */; };
+		302CB67A2220641400F4B873 /* FiltersCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB6792220641400F4B873 /* FiltersCell.m */; };
+		302CB67D222068D300F4B873 /* FilterCoreImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 302CB67C222068D300F4B873 /* FilterCoreImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		302CB5F32220290100F4B873 /* testfilters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testfilters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		302CB5F62220290100F4B873 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		302CB5F72220290100F4B873 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		302CB5F92220290100F4B873 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		302CB5FA2220290100F4B873 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		302CB5FD2220290100F4B873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		302CB5FF2220290400F4B873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		302CB6022220290400F4B873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		302CB6042220290400F4B873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		302CB6052220290400F4B873 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		302CB6292220311C00F4B873 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		302CB62B2220368E00F4B873 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		302CB62C2220368E00F4B873 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		302CB62E222036BE00F4B873 /* UIStoryboard+InstatiateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+InstatiateController.h"; sourceTree = "<group>"; };
+		302CB62F222036BE00F4B873 /* UIStoryboard+InstatiateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+InstatiateController.m"; sourceTree = "<group>"; };
+		302CB63422204C3200F4B873 /* WelcomeAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeAssembly.m; sourceTree = "<group>"; };
+		302CB63522204C3200F4B873 /* WelcomeAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeAssembly.h; sourceTree = "<group>"; };
+		302CB63722204C3200F4B873 /* WelcomePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomePresenter.h; sourceTree = "<group>"; };
+		302CB63822204C3200F4B873 /* WelcomeModuleOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeModuleOutput.h; sourceTree = "<group>"; };
+		302CB63922204C3200F4B873 /* WelcomePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomePresenter.m; sourceTree = "<group>"; };
+		302CB63A22204C3200F4B873 /* WelcomeModuleInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeModuleInput.h; sourceTree = "<group>"; };
+		302CB63C22204C3200F4B873 /* WelcomeViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewInput.h; sourceTree = "<group>"; };
+		302CB63D22204C3200F4B873 /* WelcomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeVC.h; sourceTree = "<group>"; };
+		302CB63E22204C3200F4B873 /* WelcomeViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewOutput.h; sourceTree = "<group>"; };
+		302CB63F22204C3200F4B873 /* WelcomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeVC.m; sourceTree = "<group>"; };
+		302CB64222204C3200F4B873 /* WelcomeInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeInteractor.h; sourceTree = "<group>"; };
+		302CB64322204C3200F4B873 /* WelcomeInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeInteractorOutput.h; sourceTree = "<group>"; };
+		302CB64422204C3200F4B873 /* WelcomeInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeInteractorInput.h; sourceTree = "<group>"; };
+		302CB64522204C3200F4B873 /* WelcomeInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeInteractor.m; sourceTree = "<group>"; };
+		302CB64722204C3200F4B873 /* WelcomeRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeRouter.m; sourceTree = "<group>"; };
+		302CB64822204C3200F4B873 /* WelcomeRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeRouter.h; sourceTree = "<group>"; };
+		302CB64922204C3200F4B873 /* WelcomeRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeRouterInput.h; sourceTree = "<group>"; };
+		302CB65122204C5900F4B873 /* FiltersAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiltersAssembly.m; sourceTree = "<group>"; };
+		302CB65222204C5900F4B873 /* FiltersAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersAssembly.h; sourceTree = "<group>"; };
+		302CB65422204C5900F4B873 /* FiltersModuleInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersModuleInput.h; sourceTree = "<group>"; };
+		302CB65522204C5900F4B873 /* FiltersModuleOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersModuleOutput.h; sourceTree = "<group>"; };
+		302CB65622204C5900F4B873 /* FiltersPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersPresenter.h; sourceTree = "<group>"; };
+		302CB65722204C5900F4B873 /* FiltersPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiltersPresenter.m; sourceTree = "<group>"; };
+		302CB65922204C5900F4B873 /* FiltersViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersViewInput.h; sourceTree = "<group>"; };
+		302CB65A22204C5900F4B873 /* FiltersVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiltersVC.m; sourceTree = "<group>"; };
+		302CB65B22204C5900F4B873 /* FiltersVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersVC.h; sourceTree = "<group>"; };
+		302CB65C22204C5900F4B873 /* FiltersViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersViewOutput.h; sourceTree = "<group>"; };
+		302CB65E22204C5900F4B873 /* FiltersInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiltersInteractor.m; sourceTree = "<group>"; };
+		302CB66022204C5900F4B873 /* FiltersInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersInteractorInput.h; sourceTree = "<group>"; };
+		302CB66122204C5900F4B873 /* FiltersInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersInteractorOutput.h; sourceTree = "<group>"; };
+		302CB66222204C5900F4B873 /* FiltersInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersInteractor.h; sourceTree = "<group>"; };
+		302CB66422204C5900F4B873 /* FiltersRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersRouterInput.h; sourceTree = "<group>"; };
+		302CB66522204C5900F4B873 /* FiltersRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersRouter.h; sourceTree = "<group>"; };
+		302CB66622204C5900F4B873 /* FiltersRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiltersRouter.m; sourceTree = "<group>"; };
+		302CB66C22204F2700F4B873 /* FiltersViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiltersViewModel.h; sourceTree = "<group>"; };
+		302CB66D22204F2700F4B873 /* FiltersViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiltersViewModel.m; sourceTree = "<group>"; };
+		302CB67122205F8A00F4B873 /* FilterFabric.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterFabric.h; sourceTree = "<group>"; };
+		302CB67222205F8A00F4B873 /* FilterFabric.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterFabric.m; sourceTree = "<group>"; };
+		302CB674222060C500F4B873 /* FilterService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterService.h; sourceTree = "<group>"; };
+		302CB675222060C500F4B873 /* FilterService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterService.m; sourceTree = "<group>"; };
+		302CB6782220641400F4B873 /* FiltersCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiltersCell.h; sourceTree = "<group>"; };
+		302CB6792220641400F4B873 /* FiltersCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiltersCell.m; sourceTree = "<group>"; };
+		302CB67B222068D300F4B873 /* FilterCoreImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterCoreImage.h; sourceTree = "<group>"; };
+		302CB67C222068D300F4B873 /* FilterCoreImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterCoreImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +121,216 @@
 		302CB5F52220290100F4B873 /* testfilters */ = {
 			isa = PBXGroup;
 			children = (
+				302CB66F22205F7C00F4B873 /* Services */,
+				302CB63122204C3200F4B873 /* Screens */,
+				302CB62A2220367F00F4B873 /* Utils */,
 				302CB5F62220290100F4B873 /* AppDelegate.h */,
 				302CB5F72220290100F4B873 /* AppDelegate.m */,
-				302CB5F92220290100F4B873 /* ViewController.h */,
-				302CB5FA2220290100F4B873 /* ViewController.m */,
 				302CB5FC2220290100F4B873 /* Main.storyboard */,
 				302CB5FF2220290400F4B873 /* Assets.xcassets */,
 				302CB6012220290400F4B873 /* LaunchScreen.storyboard */,
 				302CB6042220290400F4B873 /* Info.plist */,
 				302CB6052220290400F4B873 /* main.m */,
+				302CB6292220311C00F4B873 /* Prefix.pch */,
 			);
 			path = testfilters;
+			sourceTree = "<group>";
+		};
+		302CB62A2220367F00F4B873 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				302CB62B2220368E00F4B873 /* Utils.h */,
+				302CB62C2220368E00F4B873 /* Utils.m */,
+				302CB62E222036BE00F4B873 /* UIStoryboard+InstatiateController.h */,
+				302CB62F222036BE00F4B873 /* UIStoryboard+InstatiateController.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		302CB63122204C3200F4B873 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				302CB64F22204C5900F4B873 /* Filters */,
+				302CB63222204C3200F4B873 /* Welcome */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		302CB63222204C3200F4B873 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				302CB63322204C3200F4B873 /* Assembly */,
+				302CB63622204C3200F4B873 /* Presenter */,
+				302CB63B22204C3200F4B873 /* View */,
+				302CB64022204C3200F4B873 /* Interactor */,
+				302CB64622204C3200F4B873 /* Router */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		302CB63322204C3200F4B873 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				302CB63422204C3200F4B873 /* WelcomeAssembly.m */,
+				302CB63522204C3200F4B873 /* WelcomeAssembly.h */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		302CB63622204C3200F4B873 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				302CB63722204C3200F4B873 /* WelcomePresenter.h */,
+				302CB63822204C3200F4B873 /* WelcomeModuleOutput.h */,
+				302CB63922204C3200F4B873 /* WelcomePresenter.m */,
+				302CB63A22204C3200F4B873 /* WelcomeModuleInput.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		302CB63B22204C3200F4B873 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				302CB63C22204C3200F4B873 /* WelcomeViewInput.h */,
+				302CB63D22204C3200F4B873 /* WelcomeVC.h */,
+				302CB63E22204C3200F4B873 /* WelcomeViewOutput.h */,
+				302CB63F22204C3200F4B873 /* WelcomeVC.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		302CB64022204C3200F4B873 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				302CB64122204C3200F4B873 /* ViewModels */,
+				302CB64222204C3200F4B873 /* WelcomeInteractor.h */,
+				302CB64322204C3200F4B873 /* WelcomeInteractorOutput.h */,
+				302CB64422204C3200F4B873 /* WelcomeInteractorInput.h */,
+				302CB64522204C3200F4B873 /* WelcomeInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		302CB64122204C3200F4B873 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		302CB64622204C3200F4B873 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				302CB64722204C3200F4B873 /* WelcomeRouter.m */,
+				302CB64822204C3200F4B873 /* WelcomeRouter.h */,
+				302CB64922204C3200F4B873 /* WelcomeRouterInput.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		302CB64F22204C5900F4B873 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				302CB65022204C5900F4B873 /* Assembly */,
+				302CB65322204C5900F4B873 /* Presenter */,
+				302CB65822204C5900F4B873 /* View */,
+				302CB65D22204C5900F4B873 /* Interactor */,
+				302CB66322204C5900F4B873 /* Router */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		302CB65022204C5900F4B873 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				302CB65222204C5900F4B873 /* FiltersAssembly.h */,
+				302CB65122204C5900F4B873 /* FiltersAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		302CB65322204C5900F4B873 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				302CB65422204C5900F4B873 /* FiltersModuleInput.h */,
+				302CB65522204C5900F4B873 /* FiltersModuleOutput.h */,
+				302CB65622204C5900F4B873 /* FiltersPresenter.h */,
+				302CB65722204C5900F4B873 /* FiltersPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		302CB65822204C5900F4B873 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				302CB6772220640100F4B873 /* Views */,
+				302CB65922204C5900F4B873 /* FiltersViewInput.h */,
+				302CB65B22204C5900F4B873 /* FiltersVC.h */,
+				302CB65A22204C5900F4B873 /* FiltersVC.m */,
+				302CB65C22204C5900F4B873 /* FiltersViewOutput.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		302CB65D22204C5900F4B873 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				302CB66222204C5900F4B873 /* FiltersInteractor.h */,
+				302CB65E22204C5900F4B873 /* FiltersInteractor.m */,
+				302CB65F22204C5900F4B873 /* ViewModels */,
+				302CB66022204C5900F4B873 /* FiltersInteractorInput.h */,
+				302CB66122204C5900F4B873 /* FiltersInteractorOutput.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		302CB65F22204C5900F4B873 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				302CB66C22204F2700F4B873 /* FiltersViewModel.h */,
+				302CB66D22204F2700F4B873 /* FiltersViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		302CB66322204C5900F4B873 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				302CB66422204C5900F4B873 /* FiltersRouterInput.h */,
+				302CB66522204C5900F4B873 /* FiltersRouter.h */,
+				302CB66622204C5900F4B873 /* FiltersRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		302CB66F22205F7C00F4B873 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				302CB67022205F7C00F4B873 /* Filters */,
+				302CB674222060C500F4B873 /* FilterService.h */,
+				302CB675222060C500F4B873 /* FilterService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		302CB67022205F7C00F4B873 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				302CB67122205F8A00F4B873 /* FilterFabric.h */,
+				302CB67222205F8A00F4B873 /* FilterFabric.m */,
+				302CB67B222068D300F4B873 /* FilterCoreImage.h */,
+				302CB67C222068D300F4B873 /* FilterCoreImage.m */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		302CB6772220640100F4B873 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				302CB6782220641400F4B873 /* FiltersCell.h */,
+				302CB6792220641400F4B873 /* FiltersCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +403,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				302CB5FB2220290100F4B873 /* ViewController.m in Sources */,
+				302CB66B22204C5900F4B873 /* FiltersRouter.m in Sources */,
+				302CB66922204C5900F4B873 /* FiltersVC.m in Sources */,
+				302CB64E22204C3200F4B873 /* WelcomeRouter.m in Sources */,
+				302CB630222036BE00F4B873 /* UIStoryboard+InstatiateController.m in Sources */,
+				302CB64B22204C3200F4B873 /* WelcomePresenter.m in Sources */,
+				302CB64C22204C3200F4B873 /* WelcomeVC.m in Sources */,
+				302CB67D222068D300F4B873 /* FilterCoreImage.m in Sources */,
+				302CB67322205F8A00F4B873 /* FilterFabric.m in Sources */,
+				302CB62D2220368E00F4B873 /* Utils.m in Sources */,
 				302CB6062220290400F4B873 /* main.m in Sources */,
+				302CB67A2220641400F4B873 /* FiltersCell.m in Sources */,
+				302CB66822204C5900F4B873 /* FiltersPresenter.m in Sources */,
+				302CB676222060C500F4B873 /* FilterService.m in Sources */,
+				302CB64D22204C3200F4B873 /* WelcomeInteractor.m in Sources */,
+				302CB66722204C5900F4B873 /* FiltersAssembly.m in Sources */,
+				302CB64A22204C3200F4B873 /* WelcomeAssembly.m in Sources */,
+				302CB66A22204C5900F4B873 /* FiltersInteractor.m in Sources */,
 				302CB5F82220290100F4B873 /* AppDelegate.m in Sources */,
+				302CB66E22204F2700F4B873 /* FiltersViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +565,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DRUDQFX3X3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = testfilters/Prefix.pch;
 				INFOPLIST_FILE = testfilters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +584,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DRUDQFX3X3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = testfilters/Prefix.pch;
 				INFOPLIST_FILE = testfilters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
